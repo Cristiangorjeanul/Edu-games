@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pagini de colorat</title>
+    <meta name="Coloring pages" content="drawing, coloring" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1" />
+    <link rel="stylesheet" href="css/coloring.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/coloring.js"></script>
+</head>
+
+
+
+<body>
+    <form>
+        <label>Pagini de colorat<br>Selecteaza imaginea:
+            <select id="images">
+                <option>Selectează:
+                <option value="https://s3-us-west-2.amazonaws.com/s.cdpn.io/316753/b.svg">Landscape
+                <option value="https://s3-us-west-2.amazonaws.com/s.cdpn.io/183091/harper-coloring-book003.svg">Bird
+                <option value="https://s3-us-west-2.amazonaws.com/s.cdpn.io/183091/harper-coloring-book006.svg">Insect
+                <option value="https://s3-us-west-2.amazonaws.com/s.cdpn.io/183091/harper-coloring-book007.svg">Animal
+                <option value="https://s3-us-west-2.amazonaws.com/s.cdpn.io/183091/harper-coloring-book020.svg">Flowers
+            </select>
+        </label>
+
+        <label> <br> Selecteaza culoarea:&nbsp;
+            <input type="color" value="#ff1133" id="colors">
+        </label>
+    </form>
+
+    <output id="svg">
+
+    </output>
+</body>
+
+</html>
