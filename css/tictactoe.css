@@ -16,14 +16,17 @@ html {
   align-items: center;
   overflow: hidden;
   font-size: 10px;
-  background: whitesmoke;
-  font-family: Arial, sans-serif;
+  background: cornflowerblue;
+}
+
+h1 {
+  color: orange;
 }
 
 .square {
-  height: 80vmin;
-  width: 80vmin;
-  box-shadow: 1px 3px 12px 3px lightgrey;
+  height: 91vmin;
+  width: 91vmin;
+  border: solid 3.5px cornsilk;
 }
 
 .cover {
@@ -41,18 +44,19 @@ html {
   align-items: center;
   justify-content: center;
   width: calc(100% / 3);
-  border: solid 2px honeydew;
+  border: solid 1px cornsilk;
   font-family: Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 15vh;
-  color: honeydew;
-  background: #269;
+  font-size: 12vh;
+  color: orange;
+  text-shadow: .5px .5px .5px black;
+  background: blue;
   cursor: pointer;
 }
 
 .field:hover {
-  background: lightblue;
+  background: cornsilk;
 }
 
 .field:first-child {
@@ -82,7 +86,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: cornsilk;
+  text-shadow: .5px .5px .5px black;
   letter-spacing: 2px;
   font-size: 2.5vh;
   text-transform: uppercase;
@@ -97,13 +102,13 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #269;
+  background: cornflowerblue;
   opacity: 1;
   z-index: 1;
 }
 
 .table {
-  z-index: 14;
+  z-index: 15;
   text-align: center;
 }
 
@@ -111,43 +116,50 @@ html {
 .info-btn {
   width: 100px;
   height: 100px;
-  margin: 4vh;
-  background: #269;
-  border: 2px solid white;
-  color: white;
+  margin: 5vh;
+  background: cornflowerblue;
+  border: 2.5px solid cornsilk;
+  color: cornsilk;
+  text-shadow: .5px .5px .5px black;
   font-size: 5rem;
   font-weight: 800;
   cursor: pointer;
 }
 
 .info-btn {
-  width: 15%;
-  height: 20%;
+  width: 35%;
+  height: 35%;
   font-size: 3.5vh;
 }
 
 .btn:hover,
 .info-btn:hover {
-  background: lightblue;
+  background: orange;
 }
 
 #info {
   position: fixed;
-  top: 0%;
+  top: 17.5%;
   border-radius: 3px;
-  width: 60vmin;
-  height: 30vmin;
-  background: rgba(255, 255, 255, 0.9);
-  animation: modal 400ms forwards;
+  width: 91vmin;
+  height: 31vmin;
+  background: cornsilk;
+  animation: modal 500ms forwards;
   display: none;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  box-shadow: 1px 1px 1px 1px lightgrey;
   text-align: center;
-  font-size: 2.8vh;
+  font-size: 3.1vh;
   line-height: 4.5vh;
-  padding-top: 1%;
+  padding-top: 8%;
+}
+
+@media (min-width: 768px) {
+  #info {
+    padding-top: 1%;
+    top: 1%;
+  }
 }
 
 @keyframes modal {

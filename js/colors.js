@@ -76,7 +76,7 @@ $(document).ready(function () {
 
     function final() {
         if (complete === 16) {
-            alert("   Congratulations!  You  have  discovered  all  the  identical  colors!");
+            alert("   Felicitări!  Ați descoperit toate perechile de aceeași culoare!");
             restart();
         }
     }

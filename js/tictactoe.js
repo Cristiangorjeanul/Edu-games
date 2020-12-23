@@ -312,7 +312,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         this.end = function (winner) {
             if (this.fieldsLeft == 0 && winner == undefined) {
-                modal("<strong>Draw</strong><br>Remiză!");
+                modal("<strong>Remiză!</strong>");
             } else {
                 this.fieldsLeft = 0;
 
@@ -320,21 +320,15 @@ document.addEventListener('DOMContentLoaded', function () {
                     element.classList.add("clicked");
                 });
                 var name;
-                winner == "x" ? (name = "(X)") : (name = "(O)");
+                winner == "x" ? (name = "Jucătorul X") : (name = "Jucătorul O");
 
                 if (winner == this.player) {
                     modal(
-                        "<strong>Victorie!</strong><br>Felicitări, ai învins! <em>" +
-                        name +
-                        "</em>" +
-                        "."
+                        "<strong>Ai câștigat!</strong>"
                     );
                 } else {
                     modal(
-                        "<strong>Ai pierdut!</strong><br>A câștigat calculatorul <em>" +
-                        name +
-                        "</em>" +
-                        "."
+                        "<strong>Ai pierdut!</strong>"
                     );
                 }
             }
