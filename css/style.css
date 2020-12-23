@@ -13,11 +13,7 @@ body,
 h3 {
   font-weight: 700;
   color: red;
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
-    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
-    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
-    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
-    0 20px 20px rgba(0, 0, 0, 0.15), 0 20px 25px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2);
   margin-top: 5px;
   margin-bottom: 1px;
   text-align: center;
@@ -26,12 +22,57 @@ h3 {
 h5 {
   font-weight: 500;
   text-align: center;
-  color: red;
+  color: blue;
   text-shadow: 0.9px 0.9px 0.9px black;
 }
 
 .jumbotron {
-  margin-top: 15px;
+  margin-top: 19px;
   height: 381px;
   background-color: white;
+}
+
+.row {
+  background-color: white;
+}
+
+section {
+  margin-top: 95px;
+  padding: 5px;
+}
+
+.thumbnail-1 {
+  padding: 5px;
+  border: 1.5px solid blue;
+  background-color: blue;
+  border-radius: 0;
+  margin: 5px auto;
+}
+
+.thumbnail-2 {
+  padding: 5px;
+  border: 1.5px solid yellow;
+  background-color: yellow;
+  border-radius: 0;
+  margin: 5px auto;
+}
+
+.thumbnail-3 {
+  padding: 5px;
+  border: 1.5px solid red;
+  background-color: red;
+  border-radius: 0;
+  margin: 5px auto;
+}
+
+.thumbnail-4 {
+  padding: 5px;
+  border: 1.5px solid green;
+  background-color: green;
+  border-radius: 0;
+  margin: 5px auto;
+}
+
+iframe {
+  width: 100%;
 }
