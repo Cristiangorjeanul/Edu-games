@@ -13,11 +13,12 @@ h3 {
 form {
   position: fixed;
   background: blue;
-  padding: 0.4em;
-  color: white;
+  padding: 5px;
+  color: orange;
+  text-shadow: 1px 1px 1px black;
   font-weight: 700;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 21px;
   top: 0;
   left: 0;
   right: 0;
@@ -25,17 +26,23 @@ form {
 
 #images {
   color: blue;
-  font-size: 0.8em;
+  font-size: 17px;
 }
 
 #colors {
-  width: 5.3em;
-  margin: 0.2em;
+  width: 85px;
+  margin: 5px;
   background: white;
 }
 
 svg {
   display: block;
-  margin: 5em auto;
+  margin: 97px auto;
   width: 95%;
+}
+
+@media (min-width: 768px) {
+  svg {
+    width: 31%;
+  }
 }

@@ -4,8 +4,7 @@ $(document).ready(function () {
     var number = [];
     var complete = 0;
     var fields = document.querySelectorAll(".back");
-    var colors = ["blue", "green", "grey", "orange", "purple",
-        "red", "white", "yellow"];
+    var colors = ["blue", "green", "grey", "orange", "purple", "red", "white", "yellow"];
     var text = document.querySelector("h2");
     var index = 0;
 
