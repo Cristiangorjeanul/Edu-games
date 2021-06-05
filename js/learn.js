@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-  var names = ['Învață repede literele!', 'Învață repede numerele!', 'Învață repede culorile!'];
+  var names = ['LETTERS!', 'NUMBERS!', 'COLORS!'];
 
   setInterval(function () {
     var rand = Math.floor(Math.random() * 3);

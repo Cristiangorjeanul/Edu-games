@@ -1,12 +1,12 @@
 $(function () {
 
-    var $svg = $('#svg');
+    var $svgDrawing = $('#svg');
     var $selectImage = $('#images');
     var $selectColor = $('#colors');
     var color = $selectColor[0].value;
 
     $selectImage.change(function (event) {
-        $svg.load(event.target.value);
+        $svgDrawing.load(event.target.value);
     });
 
     $selectColor.change(function (event) {

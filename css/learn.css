@@ -11,9 +11,17 @@ h1 {
 }
 
 h2 {
-  margin-top: 5px;
+  margin-top: 3px;
   text-align: center;
   color: yellow;
+  font-weight: 500;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+h3 {
+  margin: 3px;
+  text-align: center;
+  color: white;
   font-weight: 500;
   text-shadow: 0.5px 0.5px 0.5px black;
 }
