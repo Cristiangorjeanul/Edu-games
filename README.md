@@ -1,2 +1,2 @@
 # Edu-games
-A selection of educational games (HTML, CSS, JavaScript-jQuery, Bootstrap). If you want to play these games please visit https://cristiangorjeanul.github.io/Edu-games/
+A selection of educational games (HTML, CSS, JavaScript-jQuery, Bootstrap): https://cristiangorjeanul.github.io/Edu-games/
